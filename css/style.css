@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;    
+}
+
+.left {
+    width: 25vw;
+}
+
+.home ul {
+    margin: 10px 25px;
+}
+.home ul li{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* width: 34px; */
+}
+
+.right {
+    width: 75vw;
+}
