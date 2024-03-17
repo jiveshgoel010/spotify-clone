@@ -1,5 +1,14 @@
 @font-face {
-    font-family: 'cirularSP-title';
-    src: url(/assets/fonts/CircularSpotifyText-Bold.otf);
-    font-weight: 700;
+    font-family: 'CircularSp-Bold';
+    src: url(/assets/fonts/CircularSp-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularSp-Light';
+    src: url(/assets/fonts/CircularSp-Light.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularSp-Medium';
+    src: url(/assets/fonts/CircularSp-Medium.otf) format('opentype');
 }
