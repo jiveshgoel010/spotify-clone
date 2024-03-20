@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1260px) {
+    .section .card-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    :root{
+        --font-1-8: 1.4rem;
+
+    }
+    #lang-selection {
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+        position: relative;
+    }
+    .left{
+        position: absolute;
+        left: -100%;
+    }
+    .right{
+        width: 99vw;
+    }
+}
